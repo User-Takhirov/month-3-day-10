@@ -128,21 +128,21 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 //4
-function Values(obj1, obj2) {
-  const keys1 = Object.keys(obj1);
-  const keys2 = Object.keys(obj2);
-  if (keys1.length !== keys2.length) {
-    return false;
-  }
-  for (const key of keys1) {
-    if (obj2.hasOwnProperty(key) && obj1[key] === obj2[key]) {
-      continue;
-    } else {
-      return false;
-    }
-  }
-  return true;
-}
-const obj1 = { a: 1, b: 2, c: 3 };
-const obj2 = { a: 1, b: 2, c: 3 };
-console.log(Values(obj1, obj2));
+// function Values(obj1, obj2) {
+//   const keys1 = Object.keys(obj1);
+//   const keys2 = Object.keys(obj2);
+//   if (keys1.length !== keys2.length) {
+//     return false;
+//   }
+//   for (const key of keys1) {
+//     if (obj2.hasOwnProperty(key) && obj1[key] === obj2[key]) {
+//       continue;
+//     } else {
+//       return false;
+//     }
+//   }
+//   return true;
+// }
+// const obj1 = { a: 1, b: 2, c: 3 };
+// const obj2 = { a: 1, b: 2, c: 3 };
+// console.log(Values(obj1, obj2));
