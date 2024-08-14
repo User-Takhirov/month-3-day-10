@@ -144,5 +144,21 @@
 //   return true;
 // }
 // const obj1 = { a: 1, b: 2, c: 3 };
-// const obj2 = { a: 1, b: 2, c: 3 };
+// const obj2 = { a: 1, b: 2,  };
 // console.log(Values(obj1, obj2));
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//5
+// function x() {
+//     let arr = [];
+//     while (true) {
+//         let input = prompt("Qiymat kiriting:");
+//         if (isNaN(Number(input))) {
+//             return arr;
+//         }
+//         arr.push(Number(input));
+//     }
+// }
+
+// console.log(x());
